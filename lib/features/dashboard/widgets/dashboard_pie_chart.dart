@@ -1,4 +1,4 @@
-import 'package:app_flutter/widgets/dashboard/indecator.dart';
+import 'indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 

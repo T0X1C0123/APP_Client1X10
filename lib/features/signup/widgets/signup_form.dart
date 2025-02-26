@@ -1,4 +1,4 @@
-import 'package:app_flutter/views/login/login_screen.dart';
+import '../../login/views/login_screen.dart';
 import 'package:flutter/material.dart';
 
 class SignupForm extends StatelessWidget {

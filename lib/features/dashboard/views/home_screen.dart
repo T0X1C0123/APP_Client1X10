@@ -1,6 +1,6 @@
-import 'package:app_flutter/widgets/dashboard/chart_container.dart';
-import 'package:app_flutter/widgets/dashboard/dashboard_bar_chart.dart';
-import 'package:app_flutter/widgets/dashboard/dashboard_pie_chart.dart';
+import '../widgets/dashboard_bar_chart.dart';
+import '../widgets/chart_container.dart';
+import '../widgets/dashboard_pie_chart.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {

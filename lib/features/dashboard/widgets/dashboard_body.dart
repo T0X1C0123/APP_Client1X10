@@ -1,5 +1,5 @@
-import 'package:app_flutter/views/dashboard/home_screen.dart';
-import 'package:app_flutter/views/dashboard/profile_screen.dart';
+import '../views/home_screen.dart';
+import '../views/profile_screen.dart';
 import 'package:flutter/material.dart';
 
 class DashboardBody extends StatelessWidget {

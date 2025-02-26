@@ -1,8 +1,8 @@
-import 'package:app_flutter/views/welcome/welcome_screen.dart';
-import 'package:app_flutter/widgets/dashboard/bottom_navigation.dart';
-import 'package:app_flutter/widgets/dashboard/dashboard_app_bar.dart';
-import 'package:app_flutter/widgets/dashboard/dashboard_body.dart';
-import 'package:app_flutter/widgets/dashboard/dashboard_drawer.dart';
+import '../../welcome/views/welcome_screen.dart';
+import '../widgets/bottom_navigation.dart';
+import '../widgets/dashboard_app_bar.dart';
+import '../widgets/dashboard_body.dart';
+import '../widgets/dashboard_drawer.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatefulWidget {

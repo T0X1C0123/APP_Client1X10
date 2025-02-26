@@ -1,7 +1,7 @@
-import 'package:app_flutter/models/user_model.dart';
-import 'package:app_flutter/services/auth_service.dart';
-import 'package:app_flutter/views/dashboard/dashboard_screen.dart';
-import 'package:app_flutter/widgets/login/login_form.dart';
+import '../../../core/models/user_model.dart';
+import '../../../core/services/auth_service.dart';
+import '../../dashboard/views/dashboard_screen.dart';
+import '../widgets/login_form.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {

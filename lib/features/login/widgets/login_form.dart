@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../models/user_model.dart';
-import '../../views/signup/signup_screen.dart';
+// import '../../models/user_model.dart';
+import '../../../core/models/user_model.dart';
+import '../../signup/views/signup_screen.dart';
 
 class LoginForm extends StatefulWidget {
   const LoginForm({super.key, required this.onLogin});

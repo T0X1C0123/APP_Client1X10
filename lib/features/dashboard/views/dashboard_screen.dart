@@ -1,4 +1,4 @@
-import 'package:app_flutter/widgets/dashboard/dashboard.dart';
+import '../widgets/dashboard.dart';
 import 'package:flutter/material.dart';
 
 class DashboardScreen extends StatelessWidget {
