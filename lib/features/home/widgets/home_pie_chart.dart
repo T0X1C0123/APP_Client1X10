@@ -2,14 +2,14 @@ import 'indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
 
-class DashboardPieChart extends StatefulWidget {
-  const DashboardPieChart({super.key});
+class HomePieChart extends StatefulWidget {
+  const HomePieChart({super.key});
 
   @override
-  State<DashboardPieChart> createState() => _DashboardPieChartState();
+  State<HomePieChart> createState() => _HomePieChartState();
 }
 
-class _DashboardPieChartState extends State<DashboardPieChart> {
+class _HomePieChartState extends State<HomePieChart> {
   int touchedIndex = -1;
 
   @override

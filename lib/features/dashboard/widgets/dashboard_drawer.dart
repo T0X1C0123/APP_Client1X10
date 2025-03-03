@@ -1,4 +1,7 @@
+import 'package:app_flutter/features/table/views/table_screen.dart';
 import 'package:flutter/material.dart';
+
+import '../../registration/views/registration_screen.dart';
 
 class DashboardDrawer extends StatelessWidget {
   final String email;
@@ -29,14 +32,27 @@ class DashboardDrawer extends StatelessWidget {
             title: 'Settings',
             children: [
               _buildDrawerItem(
-                icon: Icons.arrow_right,
-                title: 'category 1',
-                onTap: () {},
+                icon: Icons.create,
+                title: 'Crear registro',
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => RegistrationScreen()),
+                  );
+                },
               ),
               _buildDrawerItem(
-                icon: Icons.arrow_right,
-                title: 'category 2',
-                onTap: () {},
+                icon: Icons.content_paste_search_rounded,
+                title: 'Mostrar registro',
+                onTap: () {
+                  Navigator.pop(context);
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => TableScreen()),
+                  );
+                },
               ),
             ],
           ),
@@ -153,3 +169,8 @@ Widget _buildExpansionTile({
     ),
   );
 }
+
+const folderIcon =
+    '''<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+</svg>''';

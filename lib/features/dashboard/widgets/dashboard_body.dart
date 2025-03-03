@@ -1,4 +1,4 @@
-import '../views/home_screen.dart';
+import '../../home/views/home_screen.dart';
 import '../views/profile_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +15,6 @@ class DashboardBody extends StatelessWidget {
     ];
 
     return Container(
-      padding: EdgeInsets.all(16.0),
       child: pages[selectedIndex],
     );
   }

@@ -1,8 +1,8 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
-class DashboardBarChart extends StatelessWidget {
-  const DashboardBarChart({super.key});
+class HomeBarChart extends StatelessWidget {
+  const HomeBarChart({super.key});
 
   @override
   Widget build(BuildContext context) {
